@@ -5,8 +5,9 @@ import App from './App';
 import ExampleApplication from './triangleDemo'
 import registerServiceWorker from './registerServiceWorker';
 
-//ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
+/*
 var start = new Date().getTime();
 function update() {
   ReactDOM.render(
@@ -16,5 +17,5 @@ function update() {
   requestAnimationFrame(update);
 }
 requestAnimationFrame(update);
-
+*/
 registerServiceWorker();
